@@ -317,7 +317,7 @@ namespace {
       {"Infusion",     MashStep::Infusion},
       {"Temperature",  MashStep::Temperature},
       {"Decoction",    MashStep::Decoction}
-      // Inside Brewken we also have MashStep::flySparge and MashStep::batchSparge which are not mentioned in the
+      // Inside Brewtarget we also have MashStep::flySparge and MashStep::batchSparge which are not mentioned in the
       // BeerXML 1.0 Standard.  They get treated as "Infusion" when we write to BeerXML
    };
    XmlRecord::FieldDefinitions const BEER_XML_MASH_STEP_RECORD_FIELDS {
